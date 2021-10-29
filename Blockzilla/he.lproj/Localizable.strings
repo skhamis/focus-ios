@@ -86,7 +86,7 @@
 "Autocomplete.customUrlAdded" = "נוספה כתובת מותאמת אישית חדשה.";
 
 /* Description for enabling or disabling the default list. The placeholder is replaced with the application name, which can be either Firefox Focus or Firefox Klar. */
-"Autocomplete.defaultDescriptoin" = "יש להפעיל לטובת השלמה אוטומטית של %@ בלמעלה מ־450 כתובות נפוצות בשורת הכתובת.";
+"Autocomplete.defaultDescriptoin" = "יש להפעיל כדי ש־%@ ישלים אוטומטית למעלה מ־450 כתובות נפוצות בשורת הכתובת.";
 
 /* Label for enabling or disabling autocomplete */
 "Autocomplete.defaultLabel" = "השלמה אוטומטית";
