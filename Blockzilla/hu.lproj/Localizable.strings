@@ -271,6 +271,12 @@
 /* Dialog title used for requesting a user to enable access to Photos. Placeholder is either Firefox Focus or Firefox Klar */
 "photosPermission.title" = "A „%@” szeretne hozzáférni a fényképeihez";
 
+/* This is the value for a label that indicates if a user is on an unencrypted website. */
+"ProtectionStatus.NotSecure" = "A kapcsolat nem biztonságos";
+
+/* This is the value for a label that indicates if a user is on a secure https connection. */
+"ProtectionStatus.Secure" = "A kapcsolat biztonságos";
+
 /* Label for button that requests the desktop version of the currently loaded website. */
 "Request Desktop Site" = "Asztali oldal kérése";
 
@@ -324,6 +330,9 @@
 
 /* Description associated to the Send Usage Data toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSendUsageData" = "A Mozilla arra törekszik, hogy csak azt gyűjtse, ami a %@ fejlesztéséhez és támogatásához szükséges.";
+
+/* Title for section in settings menu */
+"Settings.general" = "Általános";
 
 /* Subtitle for Send Anonymous Usage Data toggle on main screen */
 "Settings.learnMore" = "Tudjon meg többet.";
@@ -461,7 +470,7 @@
 "Settings.whatsNewTitle" = "Újdonságok";
 
 /* Title for settings section to enable different Siri Shortcuts. */
-"Settinsg.siriShortcutsTitle" = "SIRI GYORS PARANCSOK";
+"Settinsg.siriShortcutsTitle" = "SIRI PARANCSOK";
 
 /* Text for a share button */
 "share" = "Megosztás";
@@ -496,9 +505,6 @@
 /* Text for the share menu option when a user wants to open the current website in the Firefox app. */
 "ShareMenu.ShareOpenFirefox" = "Megnyitás a Firefoxban";
 
-/* Text for the share menu option when a user wants to open the current website in the Safari app. */
-"ShareMenu.ShareOpenSafari" = "Megnyitás a Safariban";
-
 /* Text for the share menu option when a user wants to share the current website they are on through another app. */
 "ShareMenu.SharePage" = "Lap megosztása…";
 
@@ -512,7 +518,7 @@
 "Siri.addTo" = "Hozzáadása a Sirihez";
 
 /* Label for button to edit the Siri phrase or delete the Siri functionality. */
-"Siri.editOpenUrl" = "Gyors parancs újrarögzítése vagy törlése";
+"Siri.editOpenUrl" = "Parancs újrarögzítése vagy törlése";
 
 /* Title of option in settings to set up Siri to erase */
 "Siri.erase" = "Törlés";
