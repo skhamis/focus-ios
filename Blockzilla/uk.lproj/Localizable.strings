@@ -2,7 +2,7 @@
 "About.learnMoreButton" = "Докладніше";
 
 /* Label on About screen */
-"About.missionLabel" = "%@ створено в Mozilla. Нашою місією є сприяння розвитку здорового, відкритого Інтернету.";
+"About.missionLabel" = "%@ створено в Mozilla. Наша місія — сприяння розвитку здорового й відкритого Інтернету.";
 
 /* Label on About screen */
 "About.privateBullet1" = "Пошук і перегляд прямо в програмі";
@@ -14,7 +14,7 @@
 "About.privateBullet3" = "Стирайте для видалення куків, а також історії пошуку й перегляду";
 
 /* Label on About screen */
-"About.privateBulletHeader" = "Використовуйте в якості приватного браузера:";
+"About.privateBulletHeader" = "Використовуйте його як приватний браузер:";
 
 /* Label for row in About screen */
 "About.rowHelp" = "Допомога";
@@ -32,7 +32,7 @@
 "About.safariBullet2" = "Блокуйте вебшрифти для зменшення розміру сторінок";
 
 /* Label on About screen */
-"About.safariBulletHeader" = "Використовуйте в якості розширення для Safari:";
+"About.safariBulletHeader" = "Використовуйте його як розширення для Safari:";
 
 /* %@ is the name of the app (Focus / Klar). Title displayed in the settings screen that, when tapped, takes the user to a page with information about the product. Also displayed as a header for the About page. */
 "About.title" = "Про %@";
@@ -74,7 +74,7 @@
 "Autocomplete.addCustomUrlWithPlus" = "+ Додати власну URL-адресу";
 
 /* Description for adding and managing custom autocomplete URLs */
-"Autocomplete.customDescriptoin" = "Додавайте і керуйте автозавершенням власних URL-адрес.";
+"Autocomplete.customDescriptoin" = "Додавання й керування автозавершенням власних URL-адрес.";
 
 /* Label for button taking you to your custom Autocomplete URL list */
 "Autocomplete.customLabel" = "Власні URL";
@@ -86,7 +86,7 @@
 "Autocomplete.customUrlAdded" = "Нову власну URL-адресу додано.";
 
 /* Description for enabling or disabling the default list. The placeholder is replaced with the application name, which can be either Firefox Focus or Firefox Klar. */
-"Autocomplete.defaultDescriptoin" = "Увімкніть автозавершення в %@ для понад 450 популярних URL-адрес в панелі адреси.";
+"Autocomplete.defaultDescriptoin" = "Увімкніть автозавершення в %@ для понад 450 популярних сайтів у панелі адреси.";
 
 /* Label for enabling or disabling autocomplete */
 "Autocomplete.defaultLabel" = "Автозавершення";
@@ -122,7 +122,7 @@
 "BiometricPrompt.newSession" = "Новий сеанс";
 
 /* %@ is app name. Explanation for why the app needs access to biometric information. Prompt is only shown once when the user first tries to enable Face ID to open the app. */
-"BiometricPrompt.reason" = "Блокуйте %@ при повторному відкритті для запобігання небажаного доступу.";
+"BiometricPrompt.reason" = "Розблоковуйте %@ при кожному відкритті для запобігання небажаного доступу.";
 
 /* Accessibility label for the back button */
 "Browser.backLabel" = "Назад";
@@ -271,6 +271,12 @@
 /* Dialog title used for requesting a user to enable access to Photos. Placeholder is either Firefox Focus or Firefox Klar */
 "photosPermission.title" = "“%@” бажає отримати доступ до ваших фотографій";
 
+/* This is the value for a label that indicates if a user is on an unencrypted website. */
+"ProtectionStatus.NotSecure" = "З’єднання не захищене";
+
+/* This is the value for a label that indicates if a user is on a secure https connection. */
+"ProtectionStatus.Secure" = "З’єднання захищене";
+
 /* Label for button that requests the desktop version of the currently loaded website. */
 "Request Desktop Site" = "Повна версія сайту";
 
@@ -284,7 +290,7 @@
 "Safari.instructionsNotEnabled" = "%@ не увімкнено.";
 
 /* Label for instructions to enable Safari, shown when enabling Safari Integration in Settings */
-"Safari.instructionsOpen" = "Відкрийте параметри";
+"Safari.instructionsOpen" = "Відкрийте параметри програми";
 
 /* Save button label */
 "Save" = "Зберегти";
@@ -324,6 +330,9 @@
 
 /* Description associated to the Send Usage Data toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSendUsageData" = "Mozilla зобов'язується збирати лише дані, що необхідні для роботи і вдосконалення %@.";
+
+/* Title for section in settings menu */
+"Settings.general" = "Загальні";
 
 /* Subtitle for Send Anonymous Usage Data toggle on main screen */
 "Settings.learnMore" = "Докладніше.";
@@ -495,9 +504,6 @@
 
 /* Text for the share menu option when a user wants to open the current website in the Firefox app. */
 "ShareMenu.ShareOpenFirefox" = "Відкрити в Firefox";
-
-/* Text for the share menu option when a user wants to open the current website in the Safari app. */
-"ShareMenu.ShareOpenSafari" = "Відкрити в Safari";
 
 /* Text for the share menu option when a user wants to share the current website they are on through another app. */
 "ShareMenu.SharePage" = "Поділитися сторінкою...";
