@@ -271,6 +271,12 @@
 /* Dialog title used for requesting a user to enable access to Photos. Placeholder is either Firefox Focus or Firefox Klar */
 "photosPermission.title" = "“%@”想要访问您的照片";
 
+/* This is the value for a label that indicates if a user is on an unencrypted website. */
+"ProtectionStatus.NotSecure" = "连接不安全";
+
+/* This is the value for a label that indicates if a user is on a secure https connection. */
+"ProtectionStatus.Secure" = "连接安全";
+
 /* Label for button that requests the desktop version of the currently loaded website. */
 "Request Desktop Site" = "要求桌面版网站";
 
@@ -324,6 +330,9 @@
 
 /* Description associated to the Send Usage Data toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSendUsageData" = "Mozilla 坚持仅收集用来为大众改进 %@ 所必需的数据。";
+
+/* Title for section in settings menu */
+"Settings.general" = "常规";
 
 /* Subtitle for Send Anonymous Usage Data toggle on main screen */
 "Settings.learnMore" = "详细了解。";
@@ -461,7 +470,7 @@
 "Settings.whatsNewTitle" = "新版变化";
 
 /* Title for settings section to enable different Siri Shortcuts. */
-"Settinsg.siriShortcutsTitle" = "Siri 捷径";
+"Settinsg.siriShortcutsTitle" = "Siri 快捷指令";
 
 /* Text for a share button */
 "share" = "分享";
@@ -479,7 +488,7 @@
 "ShareMenu.GetFirefox" = "获取 Firefox 应用";
 
 /* Title for the share menu where users can take actions for the current website they are on. */
-"ShareMenu.PageActions" = "页面动作";
+"ShareMenu.PageActions" = "页面操作";
 
 /* Text for the share menu option when a user wants to remove the site from Shortcuts */
 "ShareMenu.RemoveFromShortcuts" = "移除快捷方式";
@@ -495,9 +504,6 @@
 
 /* Text for the share menu option when a user wants to open the current website in the Firefox app. */
 "ShareMenu.ShareOpenFirefox" = "在 Firefox 中打开";
-
-/* Text for the share menu option when a user wants to open the current website in the Safari app. */
-"ShareMenu.ShareOpenSafari" = "在 Safari 中打开";
 
 /* Text for the share menu option when a user wants to share the current website they are on through another app. */
 "ShareMenu.SharePage" = "分享页面…";
@@ -521,10 +527,10 @@
 "Siri.eraseAndOpen" = "清除并打开";
 
 /* Title for screen to add a favorite URL to Siri. */
-"Siri.favoriteUrl" = "打开喜爱的网站";
+"Siri.favoriteUrl" = "打开最常访问网站";
 
 /* Title of option in settings to set up Siri to open a specified URL in Focus/Klar. */
-"Siri.openURL" = "打开喜爱的网站";
+"Siri.openURL" = "打开最常访问网站";
 
 /* Label for input to set a favorite URL to be opened by Siri. */
 "Siri.urlToOpen" = "要打开的网址";
