@@ -271,6 +271,12 @@
 /* Dialog title used for requesting a user to enable access to Photos. Placeholder is either Firefox Focus or Firefox Klar */
 "photosPermission.title" = "“%@” Would Like to Access Your Photos";
 
+/* This is the value for a label that indicates if a user is on an unencrypted website. */
+"ProtectionStatus.NotSecure" = "Connection is not secure";
+
+/* This is the value for a label that indicates if a user is on a secure https connection. */
+"ProtectionStatus.Secure" = "Connection is secure";
+
 /* Label for button that requests the desktop version of the currently loaded website. */
 "Request Desktop Site" = "Request Desktop Site";
 
@@ -316,14 +322,26 @@
 /* Button label for accepting Content blocker alert */
 "Settings.blockOtherYes2" = "Block Content Trackers";
 
+/* Dark theme option in settings menu */
+"Settings.darkTheme" = "Dark";
+
 /* Description associated to the Search Suggestions toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSearchSuggestion" = "%@ will send what you type in the address bar to your search engine.";
 
 /* Description associated to the Send Usage Data toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSendUsageData" = "Mozilla strives to collect only what we need to provide and improve %@ for everyone.";
 
+/* Title for section in settings menu */
+"Settings.general" = "General";
+
 /* Subtitle for Send Anonymous Usage Data toggle on main screen */
 "Settings.learnMore" = "Learn more.";
+
+/* Light theme option in settings menu */
+"Settings.lightTheme" = "Light";
+
+/* Manual value for theme section in settings menu */
+"Settings.manualTheme" = "Manual";
 
 /* %@ is the name of the app (Focus / Klar). Title displayed in the settings screen that, when tapped, allows the user to leave a review for the app on the app store. */
 "Settings.rate" = "Rate %@";
@@ -391,6 +409,15 @@
 /* Header label for security toggles displayed in the settings menu */
 "Settings.sectionSecurity" = "SECURITY";
 
+/* System value for theme section in settings menu */
+"Settings.systemTheme" = "System Theme";
+
+/* Theme section in settings menu */
+"Settings.theme" = "Theme";
+
+/* Header for manual theme section in settings menu */
+"Settings.themePicker" = "Theme Picker";
+
 /* Label for the checkbox to toggle Advertising trackers */
 "Settings.toggleBlockAds2" = "Advertising";
 
@@ -436,6 +463,9 @@
 /* Status on for tracking protection in settings screen */
 "Settings.trackingProtectionOn" = "On";
 
+/* Value for theme toggle in settings menu */
+"Settings.useSystemTheme" = "Use System Light/Dark Mode";
+
 /* Title for What's new screen */
 "Settings.whatsNewTitle" = "What’s New";
 
@@ -474,9 +504,6 @@
 
 /* Text for the share menu option when a user wants to open the current website in the Firefox app. */
 "ShareMenu.ShareOpenFirefox" = "Open in Firefox";
-
-/* Text for the share menu option when a user wants to open the current website in the Safari app. */
-"ShareMenu.ShareOpenSafari" = "Open in Safari";
 
 /* Text for the share menu option when a user wants to share the current website they are on through another app. */
 "ShareMenu.SharePage" = "Share Page With...";
