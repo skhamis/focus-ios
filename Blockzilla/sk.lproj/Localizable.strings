@@ -271,6 +271,12 @@
 /* Dialog title used for requesting a user to enable access to Photos. Placeholder is either Firefox Focus or Firefox Klar */
 "photosPermission.title" = "“%@” žiada o prístup k vašim fotografiám";
 
+/* This is the value for a label that indicates if a user is on an unencrypted website. */
+"ProtectionStatus.NotSecure" = "Pripojenie nie je zabezpečené";
+
+/* This is the value for a label that indicates if a user is on a secure https connection. */
+"ProtectionStatus.Secure" = "Pripojenie je zabezpečené";
+
 /* Label for button that requests the desktop version of the currently loaded website. */
 "Request Desktop Site" = "Verzia stránky pre počítače";
 
@@ -324,6 +330,9 @@
 
 /* Description associated to the Send Usage Data toggle on main screen. %@ is the app name (Focus/Klar) */
 "Settings.detailTextSendUsageData" = "Mozilla sa usiluje zbierať len údaje, ktoré potrebujeme na vylepšenie aplikácie %@ pre všetkých.";
+
+/* Title for section in settings menu */
+"Settings.general" = "Všeobecné";
 
 /* Subtitle for Send Anonymous Usage Data toggle on main screen */
 "Settings.learnMore" = "Ďalšie informácie.";
@@ -495,9 +504,6 @@
 
 /* Text for the share menu option when a user wants to open the current website in the Firefox app. */
 "ShareMenu.ShareOpenFirefox" = "Otvoriť vo Firefoxe";
-
-/* Text for the share menu option when a user wants to open the current website in the Safari app. */
-"ShareMenu.ShareOpenSafari" = "Otvoriť v Safari";
 
 /* Text for the share menu option when a user wants to share the current website they are on through another app. */
 "ShareMenu.SharePage" = "Zdieľať stránku s…";
